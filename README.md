@@ -27,8 +27,8 @@ Create a .env.local file with your Firebase credentials:
 
 NEXT_PUBLIC_FIREBASE_API_KEY=your_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain
-...
-
-💡 Vision
-famBam helps households simplify decision-making around food, chores, and budgets — all in one collaborative app.
 ```
+
+## 💡 Vision
+
+famBam helps households simplify decision-making around food, chores, and budgets — all in one collaborative app.
