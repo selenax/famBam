@@ -2,7 +2,7 @@
 
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '@/lib/firebase';
-import { Button } from './components/ui/button';
+import { Button } from './ui/button';
 
 export default function GoogleSignInButton() {
   const handleSignIn = async () => {
