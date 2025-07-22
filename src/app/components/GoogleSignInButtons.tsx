@@ -1,0 +1,19 @@
+'use client';
+
+import { signInWithPopup } from 'firebase/auth';
+import { auth, provider } from '@/lib/firebase';
+import { Button } from '@/components/ui/button';
+
+export default function GoogleSignInButton() {
+  const handleSignIn = async () => {
+    try {
+      const result = await signInWithPopup(auth, provider);
+      const user = result.user;
+      console.log('✅ Signed in:', user.displayName);
+    } catch (err) {
+      console.error('❌ Sign-in error:', err);
+    }
+  };
+
+  return <Button onClick={handleSignIn}>Sign in with Google</Button>;
+}
