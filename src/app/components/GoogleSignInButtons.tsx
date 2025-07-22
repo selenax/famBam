@@ -9,9 +9,9 @@ export default function GoogleSignInButton() {
     try {
       const result = await signInWithPopup(auth, provider);
       const user = result.user;
-      console.log('✅ Signed in:', user.displayName);
+      console.log('✅ Sign in success:', user.displayName);
     } catch (err) {
-      console.error('❌ Sign-in error:', err);
+      console.error('❌ Sign in fail:', err);
     }
   };
 
