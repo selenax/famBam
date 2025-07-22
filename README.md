@@ -1,6 +1,8 @@
 # famBam 🏡
 
-**Smart Family Budgeting App** — plan meals, track spending, and manage groceries together.
+_The family that budgets together stays together._
+
+Plan meals, track spending, and manage groceries together in one shared space.
 
 Tech Stack:
 
