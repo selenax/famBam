@@ -1,0 +1,4 @@
+overrides:
+  TailwindCSS:
+    type: data
+    pattern: '*.css'
