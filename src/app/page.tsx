@@ -1,4 +1,6 @@
 import GoogleSignInButton from '../components/GoogleSignInButton';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 export default function Home() {
   return (
@@ -7,6 +9,9 @@ export default function Home() {
         <h1 className="text-3xl font-bold">famBam</h1>
         <p className="text-muted-foreground">Log in to start planning together</p>
         <GoogleSignInButton />
+        <Link href="/dashboard">
+          <Button variant="outline">Go to Dashboard</Button>
+        </Link>
       </div>
     </main>
   );
